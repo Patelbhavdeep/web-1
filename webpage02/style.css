@@ -1,0 +1,295 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+header .logo{
+    width: 25%;
+    height: inherit;
+    text-align: center;
+    line-height: 75px;
+}
+header .logo{
+    font-family: Cambria, Cochin, Georgia,  serif;
+}
+header nav{
+    width: 45%;
+    height: inherit;
+}
+header nav ul{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    text-decoration: none;
+    align-items: center;
+}
+header nav ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: brown;
+}
+header nav ul li a:hover{
+    color: gray;
+}
+.epi{
+    width: 90%;
+    height: 650px;
+    display: flex;
+    border: 1px solid black;
+    margin: auto;
+}
+.epi #ep{
+    width: 50%;
+    height: inherit;
+}
+.epi #ep h1{
+    font-size: 90px;
+    padding-top: 120px;
+    font-weight: normal;
+    letter-spacing: 4px;
+    padding-left: 90px;
+}
+.epi #ep h3{
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 90px;
+}
+.epi #ep a{
+    font-size: 20px;
+    padding-left: 90px;
+    line-height: 50px;
+}
+.epi #ep a:hover{
+    color: brown;
+}
+.epi #ep i{
+    font-size: 50px;
+    padding-left: 250px;
+}
+.epi #ep i:hover{
+    color: darkblue;
+    font-size: 70px;
+}
+.epi #pe{
+    width: 50%;
+    height: inherit;
+}
+.epi #pe img{
+    width: 100%;
+    height: 100%;
+}
+.ats{
+    width: 90%;
+    height: 650px;
+    display: flex;
+    border: 1px solid black;
+    margin: auto;
+}
+.ats #ta{
+    width: 50%;
+    height: inherit;
+}
+.ats #ta img{
+    width: 100%;
+    height: 100%;
+}
+.ats #at{
+    width: 50%;
+    height: inherit;
+}
+.ats #at h1{
+    font-size: 50px;
+    padding-top: 120px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    padding-left: 90px;
+}
+.ats #at p{
+    font-size: 15px;
+    padding-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    line-height: 25px;
+    padding-bottom: 50px;
+}
+.ats #at .s1{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-left: 90px;
+}
+.ats #at .s1:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    transition: 2s;
+}
+.rec{
+    width: 90%;
+    height: 1600px;
+    border: 1px solid black;
+    margin: auto;
+}
+.rec #r{
+    width: 70%;
+    height: 1500px;
+    margin: auto;
+}
+#r h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+#r p{
+    font-size: 18px;
+    color: grey;
+    padding-left: 100px;
+    font-style: italic;
+    padding-top: 20px;
+    line-height: 25px;
+    padding-bottom: 50px;
+}
+#r .f1{
+    width: 80%;
+    height: 350px;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+}
+#r .f2 {
+    width: 45%;
+    height: inherit;
+}
+#r .f2 img{
+    width: 100%;
+    height: inherit;
+}
+#r .f3 {
+    width: 55%;
+    height: inherit;
+}
+#r .f3 #f{
+    font-size: 25px;
+    padding-left: 35px;
+    padding-top: 30px;
+}
+#r .f3 #f:hover{
+    color: grey;
+}
+#r .f3 #s{
+    font-size: 18px;
+    padding-left: 35px;
+    padding-top: 30px;
+    color: gray;
+}
+.social{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    border: 1px solid black;
+}
+.social h6{
+    font-size: 60px;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+.social p{
+    font-size: 18px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20%;
+    padding-top: 10px;
+}
+.ig{
+    width: 92%;
+    margin: auto;
+    height: 620px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.ig #joke{
+    width: 19%;
+    height: 300px;
+    overflow: hidden;
+}
+.ig #joke img{
+    width: 100%;
+    height: 100%;
+}
+.ig #joke img:hover{
+    transform: scale(1.2);
+}
+footer{
+    width: 90%;
+    height: 650px;
+    margin: auto;
+    display: flex;
+}
+footer #meet{
+    width: 35%;
+    height: 600px;
+    background-color: black;
+}
+footer #meet h4{
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 60px;
+    color: white;
+}
+footer #meet h6{
+    color: white;
+    font-size: 25px;
+}
+.baap{
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    margin-left: 120px;
+    border: 1px solid black;
+}
+ .baap:hover{
+    background-color: black;
+    color: whitesmoke;
+    border: 1px solid white;
+}
+footer #dhyey{
+    width: 65%;
+    border: 1px solid black;
+    height: 600px;
+} 
+footer #dhyey .hj{
+    font-size: 40px;
+}
+footer #dhyey i{
+    padding-left: 100px;
+    font-size: 30px;
+}
+.maa{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-left: 90px;
+}
+.maa:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
